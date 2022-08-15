@@ -1,0 +1,178 @@
+body{
+    background:-webkit-linear-gradient(left, #f1bb81, #a6cff7);
+}
+
+#a{
+    position: absolute;
+    height: 50px;
+    width: 35px;
+    top: 20px;
+    left: 95px;
+    filter: hue-rotate(20deg) saturate(10%) brightness(180%) ;
+}
+#a:hover{
+    filter: hue-rotate(20deg) saturate(10%) brightness(200%) ;
+}
+h1{
+    
+    width: 300px;
+    margin-left: 380px;
+    margin-top: 5px;
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    top: 10px;
+    left: 150px;
+    color: #5f6163;
+}
+h1:hover{
+    color: #3c3e3f;
+    
+}
+#advertencia{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    
+}
+
+#restriccion{
+    position: absolute;
+    top: 136px;
+    left: 110px;
+}
+
+#entrada{
+    position: absolute;
+    padding: 6px;
+    border-radius: 15px;
+    height: 250px;
+    width: 460px;
+    left: 75px;
+    resize: none;
+    top: 175px;
+    
+    border-left:5px solid #f8936b ;
+    border-top:3px solid #1e90ff;
+    border-bottom: 3px solid #1e90ff;
+    border-right:3px solid #1e90ff ;
+    
+}
+
+#entrada:focus{
+    outline: none;
+}
+
+#salida{
+    position: absolute;
+    padding: 5px;
+    border-radius: 15px;
+    height: 250px;
+    width: 460px;
+    margin-left: 260px;
+    resize: none;
+    top: 175px;
+    left: 560px;
+
+    border-left:3px solid #1e90ff ;
+    border-top:3px solid #1e90ff;
+    border-bottom: 3px solid #1e90ff;
+    border-right:5px solid #f8936b ;
+}
+
+#salida:focus{
+    outline: none;
+}
+
+#encriptar{
+    color: rgb(218, 245, 245);
+    background-color: rgba(0, 132, 255, 0.705);
+    border-radius: 15px;
+    height: 60px;
+    width: 210px;
+    position: absolute;
+    top: 240px;
+    left: 580px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+
+#encriptar:hover{
+    background-color: #f8936b;
+    color: #030303;
+}
+
+#desencriptar{
+    
+    color: rgb(218, 245, 245);
+    background-color: rgba(0, 132, 255, 0.705);
+    border-radius: 15px;
+    height: 60px;
+    width: 210px;
+    position: absolute;
+    top: 310px;
+    left: 580px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+
+#desencriptar:hover{
+    background-color: #f8936b;
+    color: #030303;
+}
+
+#copiar{
+    color: rgb(218, 245, 245);
+    background-color: rgba(0, 132, 255, 0.705);
+    border-radius: 15px;
+    text-align: center;
+    border-radius: 15px;
+    height: 55px;
+    width: 200px;
+    position: absolute;
+    left: 960px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: sans-serif;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    top: 450px;
+    display: none;
+}
+#copiar:hover{
+    background-color: #f8936b;
+    color: #030303;
+}
+
+#muñeco{
+    top: 190px;
+    left: 955px;
+    position: absolute;
+    
+    height: 200px;
+    width: 200px;
+}
+
+#mensaje1{
+    position: absolute;
+    top: 360px;
+    left: 900px;
+    width: 400px;
+}
+
+#mensaje2{
+    position: absolute;
+    top: 390px;
+    left: 900px;
+}
+
